@@ -3,6 +3,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def turn_count(board)
   counter = 0
   until board == ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
+    board.each do |turn|
     counter += 1
   end
 end
