@@ -2,7 +2,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
   counter = 0
-  if my_condition_is_met
+  until board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
     counter += 1
   end
 end
